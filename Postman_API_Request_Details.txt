@@ -1,0 +1,24 @@
+Post Request:[Insert data to DB]
+http://localhost:8080/api/employees/
+
+Get Request:[Get all data from DB]
+http://localhost:8080/api/employees/
+
+Get Request:[Get particular Id data from DB]
+http://localhost:8080/api/employees/1
+
+Put Request:[Update particular Id data to DB]
+http://localhost:8080/api/employees/1
+
+
+Delete Request:[Delete particular Id data to DB]
+http://localhost:8080/api/employees/1
+
+Sample Request body
+
+{
+    "id": 1,
+    "firstName": "Rober",
+    "lastName": "John",
+    "email": "Test@gmail.com"
+}
